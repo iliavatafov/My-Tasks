@@ -1,0 +1,85 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 1100px;
+  margin-bottom: 5rem;
+  gap: 1rem;
+}
+
+.home-container .title {
+  color: rgba(58, 90, 64, 0.9);
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.table-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.hr {
+  width: 55rem;
+  border-top: 2px solid rgba(58, 90, 64, 0.9);
+}
+
+table {
+  border-collapse: collapse;
+  color: #fff;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: rgba(58, 90, 64, 0.9);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+tbody {
+  width: 100%;
+}
+
+tbody tr:nth-child(odd) {
+  font-size: 0.8rem;
+  background-color: rgba(58, 90, 64, 0.6);
+}
+
+tbody tr:nth-child(even) {
+  font-size: 0.8rem;
+  background-color: rgba(58, 90, 64, 0.4);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 800px) {
+  table {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 10px;
+  }
+}
+
+/* Left table */
+.left-table {
+  float: left;
+  width: 50%;
+}
+
+/* Right table */
+.right-table {
+  float: right;
+  width: 50%;
+}

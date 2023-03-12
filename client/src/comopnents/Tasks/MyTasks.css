@@ -1,0 +1,17 @@
+.my-tasks-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.my-task-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-my-tasks {
+  height: 25rem;
+}

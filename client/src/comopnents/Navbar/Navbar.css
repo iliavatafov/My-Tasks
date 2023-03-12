@@ -1,0 +1,130 @@
+nav {
+  background: rgba(58, 90, 64, 0.9);
+  padding: 20px;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 65px;
+  -webkit-box-shadow: 0px 10px 13px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 10px 13px 3px rgba(0, 0, 0, 0.3);
+}
+
+.nav-icon {
+  display: none;
+}
+
+.fa {
+  cursor: pointer;
+}
+
+.nav-icon .fa-times {
+  transform: rotate(360deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-icon .fa-bars {
+  transform: rotate(180deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  color: rgb(163, 177, 138);
+}
+
+.logo font {
+  color: #fff;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list li {
+  position: relative;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+.nav-list li a:hover,
+.nav-list li a:active {
+  background-color: #fff;
+  border-radius: 2px;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 860px) {
+  .logo {
+    font-size: 20px;
+  }
+  .nav-list li a {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(44, 62, 47, 0.8);
+    padding: 20px;
+    right: 0;
+    top: 64px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .nav-list li {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-list li a i {
+    position: relative;
+  }
+
+  .nav-list li a i p {
+    position: absolute;
+    bottom: 0.8rem;
+    left: 0.4rem;
+  }
+  .nav-list.close {
+    right: -100%;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+}

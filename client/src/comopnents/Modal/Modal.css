@@ -1,0 +1,71 @@
+.error-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(78, 76, 75, 0.7);
+  max-width: 2600px;
+  min-height: 650px;
+}
+
+.error-message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 30%;
+  height: 30%;
+  min-height: 10rem;
+  max-height: 20rem;
+  max-width: 90%;
+  background: rgba(58, 90, 64, 0.9);
+  -webkit-box-shadow: 1px 5px 13px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 5px 13px 3px rgba(0, 0, 0, 0.3);
+}
+
+.error-message {
+  font-weight: 300;
+  padding: 1rem 2rem;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+}
+
+.error-message-container button {
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 5px 10px;
+  background-color: rgb(163, 177, 138);
+  transition: all 0.5s ease-in-out;
+  width: 40%;
+  height: 2.5rem;
+  align-self: center;
+  color: #fff;
+  font-size: 1rem;
+  -webkit-box-shadow: 1px 5px 13px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 5px 13px 3px rgba(0, 0, 0, 0.2);
+}
+
+.error-message-container button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 860px) {
+  .error-message {
+    font-size: 0.8rem;
+  }
+
+  .error-message-container {
+    width: 70%;
+  }
+
+  .error-message-container button {
+    font-size: 0.6rem;
+  }
+}
