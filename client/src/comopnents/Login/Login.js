@@ -35,7 +35,7 @@ export const Login = () => {
     const { email, password } = inputValues;
 
     try {
-      if (email == "" || password == "") {
+      if (email === "" || password === "") {
         setInvalidDataMessage([{ msg: "Email and password are required" }]);
       }
 

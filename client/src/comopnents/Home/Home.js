@@ -29,7 +29,7 @@ export const Home = () => {
         addModalMessages(error.msg);
         showModal();
       });
-  }, [updateEmployees]);
+  }, [updateEmployees, addModalMessages, showModal]);
 
   return isModal ? (
     <Modal messages={modalMessages} />

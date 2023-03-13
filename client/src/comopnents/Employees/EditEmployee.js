@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { useParams } from "react-router-dom";
 
 import { EmployeesContext } from "../../context/EmployeesContext";
@@ -30,7 +30,7 @@ export const EditEmployee = () => {
     e.preventDefault();
     if (
       Object.entries(inputValues).some(
-        (x) => x[0] != "middleName" && x[1] === ""
+        (x) => x[0] !== "middleName" && x[1] === ""
       )
     ) {
       setInvalidDataMessage([

@@ -34,7 +34,7 @@ export const AddEmployee = () => {
     e.preventDefault();
     if (
       Object.entries(inputValues).some(
-        (x) => x[0] != "middleName" && x[1] === ""
+        (x) => x[0] !== "middleName" && x[1] === ""
       )
     ) {
       setInvalidDataMessage([
