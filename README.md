@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center"><i>My Tasks</i></h1>
 
 <p align="center">My Tasks is a straightforward task management application built on the MERN stack. The application
@@ -86,3 +87,6 @@
     <div>
       <a href="./breef documentation/My-Tasks-Ilia-Vatafov.pdf">Breef documentations</a>
     </div>
+=======
+# My-Tasks
+>>>>>>> b0b32b5f8832f281b71f4e153c2fbc5cc5bfbdb4
