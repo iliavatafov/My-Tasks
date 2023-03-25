@@ -35,9 +35,6 @@
     <img src="./images/stack.jpg" />
   </div>
 
-  <h1 align="center">THE WHOLE APP IS CUSTOM!</h1>
-  <h3 align="center">Built from scratch</h3>
-
   <hr />
 
 **Features of the platform**
@@ -46,22 +43,20 @@
 
 <b>Home page with statistics that present the top and bottom employees</b>
 
-<b>Auth (Register, Login) with validations</b>
+<b>Auth (Register, Login)</b>
 
-<b>Two type of accounts - administrator/user</b>
-
-<b>Employees manager - employees listing</b>
+<b>Employees manager - employees listing (admin only)</b>
 
 <b>Create employee (admin only)</b>
 
 <b>Book card:</b>
 
 - <i>Update account (admin only)</i>
-- <i>Edit employee data (admin only)</i>
+- <i>Edit employee (admin only)</i>
 - <i>Emplyee details (admin only)</i>
 - <i>Delete employee (admin only)</i>
 
-<b>Task manager (admin only) - tasks listing</b>
+<b>Task manager - tasks listing (admin only)</b>
 
 <b>Create task (admin only)</b>
 
@@ -71,9 +66,15 @@
 - <i>Edit task (admin only)</i>
 - <i>Delete task (admin only)</i>
 
+<b>My tasks:</b>
+
+- <i>Update task - status (employee only)</i>
+
   <hr />
 
 <b>The repo includes "<i>front-end</i>" and "<i>back-end</i>" of the app.
+
+<hr />
 
     Admin account:
     - username: ilia@primeholding.com
@@ -83,6 +84,10 @@
     - username: nikoleta@primeholding.com
     - password: Qwerty1!
 
+<hr />
+
+**Breef documentation**
+
 <div>
-  <a href="./breef documentation/My-Tasks-Ilia-Vatafov.pdf">Breef documentations</a>
+  <a href="./breef documentation/My-Tasks-Ilia-Vatafov.pdf">How the app is organised and how to run it</a>
 </div>
