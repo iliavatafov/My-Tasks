@@ -70,10 +70,6 @@
 
 - <i>Update task - status (employee only)</i>
 
-  <hr />
-
-<b>The repo includes "<i>front-end</i>" and "<i>back-end</i>" of the app.
-
 <hr />
 
     Admin account:
@@ -87,6 +83,8 @@
 <hr />
 
 **Breef documentation**
+
+<hr />
 
 <div>
   <a href="./breef documentation/My-Tasks-Ilia-Vatafov.pdf">How the app is organised and how to run it</a>
