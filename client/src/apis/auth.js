@@ -1,6 +1,6 @@
 import * as request from "./requester";
 
-const baseUrl = "http://localhost:5000/users";
+const baseUrl = "https://my-task-ilia-vatafov.onrender.com/users";
 
 const url = {
   login: baseUrl + `/login`,
