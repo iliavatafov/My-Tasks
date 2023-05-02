@@ -49,7 +49,7 @@
 
 <b>Create employee (admin only)</b>
 
-<b>Book card:</b>
+<b>Employee card:</b>
 
 - <i>Update account (admin only)</i>
 - <i>Edit employee (admin only)</i>
@@ -82,10 +82,20 @@
 
 <hr />
 
+**Demo**
+
+<hr />
+
+<div>
+  <a href="https://my-tasks-2cbca.web.app/">Demo</a>
+</div>
+
+<hr />
+
 **Breef documentation**
 
 <hr />
 
 <div>
-  <a href="./breef documentation/My-Tasks-Ilia-Vatafov.pdf">How the app is organised and how to run it</a>
+  <a href="./breef documentation/My-Tasks-Ilia-Vatafov.pdf">How the app is organised and how to run it localy</a>
 </div>
