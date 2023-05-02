@@ -82,7 +82,7 @@
 
 <hr />
 
-**Demo**
+**Demo link**
 
 <hr />
 
